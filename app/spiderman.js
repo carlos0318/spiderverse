@@ -1,5 +1,5 @@
 class Spiderman {
-  constructor(name, age, actor, movies, studio) {
+  constructor (name, age, actor, movies, studio) {
     this.name = name;
     this.age = age;
     this.actor = actor;
@@ -7,3 +7,5 @@ class Spiderman {
     this.studio = studio;
   }
 }
+
+module.exports = Spiderman;
